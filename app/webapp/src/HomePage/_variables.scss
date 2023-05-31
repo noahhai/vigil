@@ -1,0 +1,26 @@
+// If you felt the name is not-so-pretty,
+// you can always change!
+
+$pretty--class-name: pretty;
+
+// are you sure, you wanna change my handpicked
+// awesome super duper colors?
+
+$pretty--color-default: black;
+$pretty--color-primary: #428bca;
+$pretty--color-info: #5bc0de;
+$pretty--color-success: #5cb85c;
+$pretty--color-warning: #f0ad4e;
+$pretty--color-danger: #d9534f;
+$pretty--color-dark: #5a656b;
+
+// uh, boring z-index stuff, who cares.
+
+$pretty--z-index-back: 0;
+$pretty--z-index-between: 1;
+$pretty--z-index-front: 2;
+
+// nobody will change this.
+
+$pretty--debug: false;
+$pretty--dev-err: 'Invalid input type';

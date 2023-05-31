@@ -1,0 +1,20 @@
+.accordion > div > div:first-of-type {
+  margin-top: 1em;
+  margin-left: -5px;
+  padding-left: 5px;
+  background-color: #edf2fd;
+  text-transform: uppercase;
+  user-select: none;
+  cursor: pointer;
+}
+
+.accordion > div {
+
+  margin-left: -5px;
+  padding-left: 5px;
+  background-color: #d8e3fb8c;
+}
+
+h3, label, h1{
+  color: black;
+}

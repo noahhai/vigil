@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Vigil alert service</title>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Author: Noah Haibach, Category: Software & Cli Tools">
+    <meta name="Keywords" content="notification service, smtp email sms notification, alert when command finishes, developer cli alert tool"
+
+    <!-- bootstrap css -->
+    <!-- <link href="/pkg/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/> -->
+
+    <style>
+        a { cursor: pointer; }
+
+        #app::after {
+          content: "";
+          background: url(https://getvigil.io/static/background.jpg);
+          opacity: 0.5;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          position: absolute;
+          z-index: -1;
+        }
+        #app {
+          display: block;
+          position: relative;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+
+</html>

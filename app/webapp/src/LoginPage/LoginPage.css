@@ -1,0 +1,21 @@
+.hero-image {
+  position: relative;
+  height: 100px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+}
+
+label, h1.login, h3.login {
+  color: white;
+}
